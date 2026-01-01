@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import ContactItem from '../ContactItem/ContactItem';
 import css from "./ContactList.module.css"
 

@@ -1,10 +1,13 @@
-import React, { Component } from 'react';
+// import React, { Component } from 'react';
+import { useState } from 'react';
 
-export default class ContactForm extends Component {
-  state = {
-    name: '',
-    number: '',
-  };
+export default function ContactForm () {
+  const { name, setName } = useState('');
+  const { number, setNumber } = useState('');
+  // state = {
+  //   name: '',
+  //   number: '',
+  // };
 
   // оновлення name при введенні
 

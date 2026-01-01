@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import css from "./ContactItem.module.css"
 
 const ContactItem = ({ id, name, number, onDeleteContact }) => (
