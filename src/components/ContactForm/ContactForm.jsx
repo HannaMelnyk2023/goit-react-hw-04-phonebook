@@ -1,7 +1,7 @@
 // import React, { Component } from 'react';
 import { useState } from 'react';
 
-export default function ContactForm({ onSubmit }) {
+export default function ContactForm({ onAddContact }) {
   const [name, setName] = useState('');
   const [number, setNumber] = useState('');
 
