@@ -20,7 +20,6 @@ export function App() {
       // alert('Будь ласка, будьте лапочкою, заповніть усі поля');
       return;
     };
-
     // перевірка на дублі
     const isDuplicate = contacts.some(
       contact => contact.name.toLowerCase() === contactName.toLowerCase()
@@ -28,7 +27,7 @@ export function App() {
     if (isDuplicate) {
       alert(`${contactName} is alredy in contacts.`);
       return;
-    }
+    };
 
     const newContact = {
       id: nanoid(),
@@ -66,4 +65,4 @@ export function App() {
       />
     </div>
   );
-}
+};
